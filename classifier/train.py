@@ -36,7 +36,7 @@ from loguru import logger
 from tqdm.auto import tqdm
 import optuna
 
-wandb_api_key = "0806b2d5c00870a95f366d95c825d7680649abb7"
+wandb_api_key = ""
 os.environ['WANDB_API_KEY'] = wandb_api_key
 wandb.login()
 
