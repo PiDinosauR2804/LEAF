@@ -1,0 +1,13 @@
+python extract_event.py ^
+    --input_root data/data_text ^
+    --output_root output/des4 ^
+    --datasets MAVEN ^
+    --perms 0 ^
+    --model gemini-2.0-flash ^
+    --candidate 5 ^
+    --num_try 3 ^
+    --max_consecutive_429_error 6 ^
+    --max_num_threads 8 ^
+    --logs_dir logs/extractor ^
+    --eresume ^
+    --gen_des

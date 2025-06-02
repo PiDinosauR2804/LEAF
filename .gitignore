@@ -1,0 +1,10 @@
+temp/
+original_data/
+test/
+.env
+*.ipynb
+**/api_key.py
+output/MAVEN
+output/ACE
+/match.py
+logs/
